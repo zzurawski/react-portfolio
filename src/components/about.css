@@ -1,0 +1,23 @@
+#about{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 20px;
+}
+
+.name{
+   font-size: 48px;
+   border-radius: 20px;
+   border: 2px solid rgb(0, 238, 255);
+   background-color: black;
+   color: aliceblue;
+   font-style: italic;
+}
+
+.aboutme{
+    font-size: 28px;
+    word-spacing: 2px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+}

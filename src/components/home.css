@@ -1,3 +1,105 @@
-#home{
-    color: black;
+body  {
+    background-image: url('https://static.pexels.com/photos/414171/pexels-photo-414171.jpeg');
+  background-size:cover;
+        -webkit-animation: slidein 100s;
+        animation: slidein 100s;
+
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+
+        -webkit-animation-direction: alternate;
+        animation-direction: alternate;              
+}
+
+@-webkit-keyframes slidein {
+from {background-position: top; background-size:3000px; }
+to {background-position: -100px 0px;background-size:2750px;}
+}
+
+@keyframes slidein {
+from {background-position: top;background-size:3000px; }
+to {background-position: -100px 0px;background-size:2750px;}}
+
+body{
+    color: rgb(255, 255, 255);
+    backdrop-filter: blur(10);
+}
+
+h1{
+    background-image: radial-gradient(#55d1c1, #a8f0de);
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    letter-spacing: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+    border: 1px solid black;
+    font-size: 42px;
+    font-style: oblique;
+}
+
+h1:hover{
+    
+    transition: ease-out;
+    transition-duration: 2.8s;
+    border: none;
+    background: space;
+}
+
+h2{
+    background-color: rgb(158, 226, 187);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: auto;
+    border-radius: 10px;
+    border: 2px double #135033;
+    color: rgb(0, 0, 0);
+    margin-left: 900px;
+    
+}
+
+#welcomebody{
+    display: flex;
+    position: relative;
+    text-align: center;
+    background-color: rgb(3, 26, 3);
+    padding: 10px;
+    height: max-content;
+    width: auto;
+    border: 3px solid white;
+    border-radius: 20px;
+}
+
+#list{
+    background-color: #071825;
+    text-align: center;
+    list-style: none;
+    font-size: 32px;
+    padding: 0px 50px 0px 50px;
+}
+
+#name{
+    background-color: black;
+    font-size: 36px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 3px;
+    text-align: center;
+    border-radius: 10px;
+    border: 3px solid white;
+    width: fit-content;
+    padding: 20px;
+}
+
+#contact{
+    text-align: center;
+    margin-top: 200px;
+    background-color: #071825;
+    border: 3px double white;
+    padding: 10px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    word-spacing: 5px;
 }
